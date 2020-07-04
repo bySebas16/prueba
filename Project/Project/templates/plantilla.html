@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <h1>
+            Plantilla
+        </h1>
+        {% include "superior/barra.html" %}
+
+        {% if nombre_persona == 'Sebastian' %}
+            <p>Sebas esta aqui </p>
+        {% endif %}
+
+        <p>{{nombre_persona.upper}} {{apellido_persona.upper}}</p>
+        <p>
+            <ul>
+                {% if temas %}
+                    {% for elTema in temas %}
+
+                        <li>{{elTema}}</li>
+
+                    {% endfor %}
+
+                {% else %}
+                    <p>No hay elementos que mostrar</p>
+                {% endif %}
+            </ul>
+        </p>
+    </body>
+</html>

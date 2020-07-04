@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            {% block title %} {% endblock %}
+        </title>
+    </head>
+
+    <body>
+        <h1 style = "background-color: blue; color: white; text-align: center;">
+            Plantilla
+        </h1>
+        {% include "superior/barra.html" %}
+
+
+        {% block content %} 
+        
+        {% endblock %}
+
+        <p style = "background-color: blue; color: white; text-align: right;">Hasta luego</p>
+
+    </body>
+</html>

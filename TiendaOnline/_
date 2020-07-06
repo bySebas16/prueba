@@ -1,0 +1,20 @@
+[2020-07-06 15:25:19 +0000] [1] [INFO] Starting gunicorn 19.9.0
+[2020-07-06 15:25:19 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+[2020-07-06 15:25:19 +0000] [1] [INFO] Using worker: sync
+[2020-07-06 15:25:19 +0000] [7] [INFO] Booting worker with pid: 7
+[2020-07-06 15:25:19 +0000] [8] [INFO] Booting worker with pid: 8
+[2020-07-06 15:27:19 +0000] [1] [INFO] Handling signal: term
+[2020-07-06 15:27:19 +0000] [8] [INFO] Worker exiting (pid: 8)
+[2020-07-06 15:27:19 +0000] [7] [INFO] Worker exiting (pid: 7)
+[2020-07-06 15:27:19 +0000] [1] [INFO] Shutting down: Master
+[2020-07-06 15:28:43 +0000] [1] [INFO] Starting gunicorn 19.9.0
+[2020-07-06 15:28:43 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+[2020-07-06 15:28:43 +0000] [1] [INFO] Using worker: sync
+[2020-07-06 15:28:43 +0000] [8] [INFO] Booting worker with pid: 8
+[2020-07-06 15:28:43 +0000] [9] [INFO] Booting worker with pid: 9
+172.18.0.4 - - [06/Jul/2020:15:30:12 +0000] "GET / HTTP/1.0" 404 77 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+172.18.0.4 - - [06/Jul/2020:15:30:51 +0000] "GET /busqueda_productos/ HTTP/1.0" 200 588 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+172.18.0.4 - - [06/Jul/2020:15:30:51 +0000] "GET /Bootstrap/js/jquery-3.2.1.slim.min.js HTTP/1.0" 404 77 "http://127.0.0.1:8000/busqueda_productos/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+172.18.0.4 - - [06/Jul/2020:15:30:51 +0000] "GET /Bootstrap/js/popper.min.js HTTP/1.0" 404 77 "http://127.0.0.1:8000/busqueda_productos/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+172.18.0.4 - - [06/Jul/2020:15:30:51 +0000] "GET /Bootstrap/js/bootstrap.min.js HTTP/1.0" 404 77 "http://127.0.0.1:8000/busqueda_productos/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+172.18.0.4 - - [06/Jul/2020:15:30:51 +0000] "GET /Bootstrap/js/bootstrap.min.js HTTP/1.0" 404 77 "http://127.0.0.1:8000/busqueda_productos/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
